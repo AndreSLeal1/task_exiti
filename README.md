@@ -40,7 +40,7 @@ Uma aplicação moderna para gerenciamento de tarefas com dashboard interativo e
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/taskflow.git
+git clone https://github.com/AndreSLeal1/task_exiti.git
 ```
 ## Instale as dependências:
 ````bash
