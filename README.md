@@ -55,13 +55,13 @@ cp .env.example .env.local
 npm run dev
 ````
 ## Estrutura do Projeto
-taskexiti/
-** ├── app/
-** │   ├── tasks/          # Página principal de gerenciamento
-** │   ├── tasks/new/      # Criação de novas tarefas
-** │   └── tasks/[id]/edit # Edição de tarefas
-** ├── components/         # Componentes reutilizáveis
-** ├── lib/                # Utilitários e configurações
-** ├── services/           # Comunicação com API
-** ├── types/              # Tipos TypeScript
-** └── public/             # Assets estáticos
+- taskexiti/
+- ├── app/
+- │   ├── tasks/          # Página principal de gerenciamento
+- │   ├── tasks/new/      # Criação de novas tarefas
+- │   └── tasks/[id]/edit # Edição de tarefas
+- ├── components/         # Componentes reutilizáveis
+- ├── lib/                # Utilitários e configurações
+- ├── services/           # Comunicação com API
+- ├── types/              # Tipos TypeScript
+- └── public/             # Assets estáticos
