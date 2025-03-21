@@ -32,8 +32,8 @@ Uma aplicação moderna para gerenciamento de tarefas com dashboard interativo e
 
 ## ⚙ Pré-requisitos
 
-- Node.js 18+
-- NPM 9+
+- Node.js 22.13.1
+- NPM 10.9.2
 - API Backend em execução (http://localhost:8080)
 
 ## 🚀 Instalação
@@ -54,3 +54,14 @@ cp .env.example .env.local
 ````bash
 npm run dev
 ````
+## Estrutura do Projeto
+taskexiti/
+├── app/
+│   ├── tasks/          # Página principal de gerenciamento
+│   ├── tasks/new/      # Criação de novas tarefas
+│   └── tasks/[id]/edit # Edição de tarefas
+├── components/         # Componentes reutilizáveis
+├── lib/                # Utilitários e configurações
+├── services/           # Comunicação com API
+├── types/              # Tipos TypeScript
+└── public/             # Assets estáticos
