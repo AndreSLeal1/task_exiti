@@ -1,4 +1,3 @@
-// src/components/ui/button.tsx
 import { cn } from "@/lib/utils";
 import { type ButtonHTMLAttributes, forwardRef } from "react";
 
