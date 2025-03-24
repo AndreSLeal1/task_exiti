@@ -1,14 +1,11 @@
-// lib/utils.ts
 import { clsx } from "clsx"
 import { twMerge } from "tailwind-merge"
 import type { TaskStatus } from "@/types/task"
 
-// Função para combinação de classes Tailwind
 export function cn(...inputs: any[]) {
   return twMerge(clsx(inputs))
 }
 
-// Funções existentes para tratamento de tasks
 export const statusBadgeClasses = (status: TaskStatus) => {
   const base = 'px-2 py-1 rounded-full text-sm font-medium';
   switch (status) {
